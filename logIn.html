@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleSudoku.css">
+    <title>SUDOKU Project</title>
+</head>
+
+
+
+<body>
+    <!-- every page is containd in a div so we can switch from page to page -->
+    <div id="firstPageDiv">
+
+        <span><img id="HAB" src="HAB.png" alt="Airplane Pic" height="150px" width="120px"></span>
+        <br>
+        <p id="headLine">Fly High Sudoku</p>
+        <br>
+        <div id="loginForm">
+            <input id="usernameInput" type="text" placeholder="Enter Username" name="userName" autofocus required>
+            <p id="userNameError"></p>
+            <input id="passwordInput" type="password" placeholder="Enter Password" name="password" required>
+            <button id="loginButton" onclick="loginFunc()">Login</button>
+
+        </div>
+    </div>
+</body>
+
+
+<script src="logIn.js"></script>
+
+</html>
